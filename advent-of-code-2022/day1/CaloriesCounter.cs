@@ -7,7 +7,7 @@
 		{
 			int accumulator = 0, result = 0;
 
-            foreach (var line in File.ReadAllLines("./day1/input.txt"))
+            foreach (var line in File.ReadAllLines("./input.txt"))
 			{
 				if (line.Length == 0)
 				{
@@ -28,7 +28,7 @@
             var accumulator = 0;
             var caloriesPerElf = new List<int>();
 
-            foreach (var line in File.ReadAllLines("./day1/input.txt"))
+            foreach (var line in File.ReadAllLines("./input.txt"))
             {
                 if (line.Length == 0)
                 {
