@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/day6/day6.csproj",
+                "${workspaceFolder}/advent-of-code-2022.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/day6/day6.csproj",
+                "${workspaceFolder}/advent-of-code-2022.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,8 +32,8 @@
             "args": [
                 "watch",
                 "run",
-                "--project",
-                "${workspaceFolder}/day6/day6.csproj"
+                "--solution",
+                "${workspaceFolder}/advent-of-code-2022.sln"
             ],
             "problemMatcher": "$msCompile"
         }
