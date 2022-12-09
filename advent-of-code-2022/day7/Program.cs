@@ -4,7 +4,7 @@ Console.WriteLine("------ Day 7 ------");
 var result1 = FindDirectoryWithAtMost100kInSize();
 Console.WriteLine($"Day 7-1: {result1}");
 
-var result2 = puzzle2();
+var result2 = FindOptimalDirectoryForDeletion();
 Console.WriteLine($"Day 7-2: {result2}");
 
 int FindDirectoryWithAtMost100kInSize()
