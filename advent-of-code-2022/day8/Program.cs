@@ -3,13 +3,13 @@
 Console.WriteLine("Advent of Code 2022");
 Console.WriteLine("------ Day 8 ------");
 
-var result1 = await puzzle1();
+var result1 = FindTreesWithClearView();
 Console.WriteLine($"Day 8-1: {result1}");
 
-var result2 = puzzle2();
+var result2 = FindTreeWithHighestScenicScore();
 Console.WriteLine($"Day 8-2: {result2}");
 
-async Task<int> puzzle1()
+int FindTreesWithClearView()
 {
     var matrix = ReadMatrix();
     var coords = CreateCoordenates(matrix);
@@ -27,7 +27,7 @@ async Task<int> puzzle1()
         .Sum();
 }
 
-int puzzle2()
+int FindTreeWithHighestScenicScore()
 {
     var matrix = ReadMatrix();
     var coords = CreateCoordenates(matrix);
